@@ -16,13 +16,16 @@ npm run build
 npm run watch:css
 ```
 
-Then open `index.html` in your browser or use a local server to preview the page.
+Then open `src/index.html` in your browser or use a local server to preview the page.
+
+## Deployment
+
+Before deploying, run `npm run build` to generate the production CSS. Then deploy the `src/` folder.
 
 ## Structure
 
-- `index.html` — landing page markup
-- `src/styles.css` — Tailwind entry point and custom styles
+- `src/index.html` — landing page markup
+- `src/styles.css` — generated Tailwind CSS output
 - `src/main.js` — simple JavaScript interaction
-- `dist/styles.css` — generated Tailwind CSS output
 - `tailwind.config.js` — Tailwind content config
 - `postcss.config.js` — PostCSS plugins

@@ -4,8 +4,8 @@
   "private": true,
   "description": "A modern tech company landing page built with HTML, Tailwind CSS, and JavaScript.",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
-    "watch:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./src/styles.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/styles.css -o ./src/styles.css --watch",
     "build": "npm run build:css"
   },
   "devDependencies": {
