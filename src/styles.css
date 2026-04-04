@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+.hero {
+  @apply min-h-screen flex flex-col justify-center items-center px-6 text-center;
+}
+
+.card {
+  @apply bg-slate-900/90 border border-slate-700 rounded-3xl p-8 shadow-2xl shadow-slate-950/40 max-w-4xl w-full;
+}

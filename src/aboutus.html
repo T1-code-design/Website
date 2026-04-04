@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us — Tech Titans</title>
+    <link rel="stylesheet" href="../dist/styles.css" />
+  </head>
+  <body class="min-h-screen bg-gray-950 text-white">
+    <div class="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-black">
+      <nav class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur border-b border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center gap-3">
+              <img src="./Titans.png" alt="Tech Titans logo" class="w-10 h-10 object-contain" />
+              <span class="text-xl font-bold text-white">Tech Titans</span>
+            </div>
+
+            <div class="hidden md:flex gap-8">
+              <a href="./index.html" class="text-gray-300 hover:text-green-400 transition">Home</a>
+              <a href="./aboutafriplaza.html" class="text-gray-300 hover:text-green-400 transition">AfriPlaza</a>
+              <a href="./aboutus.html" class="text-gray-300 hover:text-green-400 transition font-semibold">About Us</a>
+            </div>
+
+            <button
+              id="mobile-menu-button"
+              class="md:hidden p-2 rounded-md text-white hover:bg-gray-800"
+              aria-label="Toggle menu"
+              aria-expanded="false"
+            >
+              <span class="block w-6 h-0.5 bg-white mb-1"></span>
+              <span class="block w-6 h-0.5 bg-white mb-1"></span>
+              <span class="block w-6 h-0.5 bg-white"></span>
+            </button>
+          </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-700 bg-gray-900">
+          <div class="px-4 pt-4 pb-6 space-y-2">
+            <a href="./index.html" class="block py-2 text-gray-300 hover:text-green-400">Home</a>
+            <a href="./aboutafriplaza.html" class="block py-2 text-gray-300 hover:text-green-400">AfriPlaza</a>
+            <a href="./aboutus.html" class="block py-2 text-gray-300 hover:text-green-400 font-semibold">About Us</a>
+          </div>
+        </div>
+      </nav>
+
+      <header class="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 to-gray-800">
+        <div class="max-w-4xl mx-auto text-center">
+          <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">About Tech Titans</h1>
+          <p class="text-lg text-gray-300 max-w-2xl mx-auto">We build modern platforms and tools to foster innovative technology and design.</p>
+        </div>
+      </header>
+
+      <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
+          <div>
+            <h2 class="text-2xl font-bold text-white mb-3">Our Mission</h2>
+            <p class="text-gray-300">Merging creativity with innovation.</p>
+          </div>
+          <div class="rounded-lg overflow-hidden shadow-md bg-gray-800 p-6">
+            <h3 class="text-lg font-semibold mb-2 text-white">What we focus on currently</h3>
+            <ul class="list-disc pl-5 text-gray-300 space-y-2">
+              <li>Afriplaza</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold text-white mb-6">Our Values</h2>
+          <div class="space-y-3">
+            <details class="group bg-gray-800 border border-gray-600 rounded-lg p-4 transition hover:border-green-400">
+              <summary class="flex items-center justify-between cursor-pointer text-white">
+                <span class="font-semibold">Integrity</span>
+                <span class="text-green-400 group-open:rotate-180 transition-transform">+</span>
+              </summary>
+              <p class="mt-3 text-gray-300">We act honestly and transparently in everything we do.</p>
+            </details>
+
+            <details class="group bg-gray-800 border border-gray-600 rounded-lg p-4 transition hover:border-green-400">
+              <summary class="flex items-center justify-between cursor-pointer text-white">
+                <span class="font-semibold">Excellence</span>
+                <span class="text-green-400 group-open:rotate-180 transition-transform">+</span>
+              </summary>
+              <p class="mt-3 text-gray-300">We pursue high quality and continuous improvement.</p>
+            </details>
+
+            <details class="group bg-gray-800 border border-gray-600 rounded-lg p-4 transition hover:border-green-400">
+              <summary class="flex items-center justify-between cursor-pointer text-white">
+                <span class="font-semibold">Collaboration</span>
+                <span class="text-green-400 group-open:rotate-180 transition-transform">+</span>
+              </summary>
+              <p class="mt-3 text-gray-300">We believe great products are built together.</p>
+            </details>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold text-white mb-6">Our Story</h2>
+          <div class="space-y-6">
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-green-600 text-white flex items-center justify-center">2025</div>
+              <div>
+                <h3 class="font-semibold text-white">Founded</h3>
+                <p class="text-gray-300">Tech Titans started as a hackathon team, consisting of three developers that decided to expand.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-gray-700 text-white flex items-center justify-center">2026</div>
+              <div>
+                <h3 class="font-semibold text-white">First Product Launch</h3>
+                <p class="text-gray-300">We launched AfriPlaza.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm">
+          &copy; 2026 Tech Titans
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

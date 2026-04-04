@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Titans — Tech Company Website</title>
+    <link rel="stylesheet" href="../dist/styles.css" />
+  </head>
+  <body class="min-h-screen bg-gray-950 text-white">
+    <div class="min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-black">
+      <header class="sticky top-0 z-50 bg-gray-950/95 backdrop-blur border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <a href="./index.html" class="flex items-center gap-3">
+              <img src="./Titans.png" alt="Tech Titans logo" class="w-10 h-10 object-contain" />
+              <span class="text-xl sm:text-2xl font-bold text-white">Tech Titans</span>
+            </a>
+
+            <div class="hidden md:flex items-center gap-8">
+              <a href="index.html" class="text-gray-300 hover:text-green-400 transition-colors duration-200 font-medium">Home</a>
+              <a href="./aboutafriplaza.html" class="text-gray-300 hover:text-green-400 transition-colors duration-200 font-medium">Afriplaza</a>
+              <a href="./aboutus.html" class="text-gray-300 hover:text-green-400 transition-colors duration-200 font-medium">About Us</a>
+            </div>
+
+            <button
+              id="mobile-menu-button"
+              class="md:hidden p-2 rounded-lg hover:bg-gray-800 text-white transition-colors"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <span class="block w-6 h-0.5 bg-white mb-1"></span>
+              <span class="block w-6 h-0.5 bg-white mb-1"></span>
+              <span class="block w-6 h-0.5 bg-white"></span>
+            </button>
+          </div>
+
+          <div id="mobile-menu" class="hidden md:hidden pb-4 border-t border-gray-700">
+            <a href="index.html" class="block py-2 px-2 text-gray-300 hover:text-green-400 hover:bg-gray-800 rounded transition-colors">Home</a>
+            <a href="aboutafriplaza.html" class="block py-2 px-2 text-gray-300 hover:text-green-400 hover:bg-gray-800 rounded transition-colors">Afriplaza</a>
+            <a href="aboutus.html" class="block py-2 px-2 text-gray-300 hover:text-green-400 hover:bg-gray-800 rounded transition-colors">About Us</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="relative overflow-hidden">
+          <video
+            src="./TECH.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            class="w-full h-72 sm:h-96 object-cover"
+            aria-label="Tech Titans promotional video"
+          ></video>
+          <div class="absolute inset-0 bg-black/40"></div>
+          <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+            <div class="max-w-3xl text-center mx-auto">
+              <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">The future of e-commerce in Africa.</h1>
+              <p class="mt-6 text-lg leading-8 text-slate-300">Afriplaza empowers producers, wholesalers, and retailers with intuitive digital experiences, secure commerce flows, and meaningful impact.</p>
+              <div class="mt-10 flex flex-col sm:flex-row sm:justify-center gap-4">
+                <a href="aboutafriplaza.html" class="inline-flex justify-center rounded-full bg-green-500 px-8 py-3 text-base font-semibold text-slate-950 transition hover:bg-green-400">Explore Afriplaza</a>
+                <a href="aboutus.html" class="inline-flex justify-center rounded-full border border-gray-700 bg-gray-900/80 px-8 py-3 text-base font-semibold text-white transition hover:border-green-400 hover:text-green-400">About Us</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900 to-gray-800">
+          <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+              <h2 class="text-3xl sm:text-4xl font-bold text-white">Our Culture, Values, and First Launch</h2>
+              <p class="mt-4 text-gray-300 mx-auto max-w-2xl">Discover what drives Tech Titans and our groundbreaking Afriplaza marketplace.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              <article class="bg-gray-800 border border-gray-700 rounded-3xl p-8 transition hover:shadow-lg hover:shadow-green-400/30 hover:border-green-400">
+                <div class="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-4">
+                  <span class="text-2xl">🌟</span>
+                </div>
+                <h3 class="text-xl sm:text-2xl font-bold text-white mb-3">Our Culture</h3>
+                <p class="text-gray-300 leading-relaxed">At Tech Titans, we foster innovation, collaboration, and inclusivity. We build solutions that solve real-world problems in agriculture and beyond.</p>
+              </article>
+
+              <article class="bg-gray-800 border border-gray-700 rounded-3xl p-8 transition hover:shadow-lg hover:shadow-blue-400/30 hover:border-blue-400">
+                <div class="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-4">
+                  <span class="text-2xl">💎</span>
+                </div>
+                <h3 class="text-xl sm:text-2xl font-bold text-white mb-3">Our Values</h3>
+                <p class="text-gray-300 leading-relaxed">Integrity, excellence, and collaboration guide everything we do. We are committed to delivering ethical, sustainable technology solutions.</p>
+              </article>
+
+              <a href="aboutafriplaza.html" class="block bg-gray-800 border border-gray-700 rounded-3xl p-8 transition hover:shadow-lg hover:shadow-white/20 hover:border-white">
+                <div class="w-16 h-16 bg-orange-500/20 rounded-2xl flex items-center justify-center mb-4 overflow-hidden">
+                  <img src="./Afriplaza.jpeg" alt="Afriplaza launch" class="w-full h-full object-cover rounded-2xl" />
+                </div>
+                <h3 class="text-xl sm:text-2xl font-bold text-white mb-3">Afriplaza Launch</h3>
+                <p class="text-gray-300 leading-relaxed">Our first marketplace launch, Afriplaza, connects producers, wholesalers, and retailers through transparent, efficient digital commerce.</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+          <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+              <h2 class="text-3xl sm:text-4xl font-bold text-white">Co-Founders</h2>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <article class="bg-gray-700 border border-gray-600 rounded-3xl p-6 text-center transition hover:border-green-400 hover:shadow-lg hover:shadow-green-400/20">
+                <div class="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-green-500 text-white text-3xl font-bold">S</div>
+                <h3 class="text-lg font-semibold text-white">Stephen G. Kollie</h3>
+              </article>
+
+              <article class="bg-gray-700 border border-gray-600 rounded-3xl p-6 text-center transition hover:border-green-400 hover:shadow-lg hover:shadow-green-400/20">
+                <div class="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-green-500 text-white text-3xl font-bold">J</div>
+                <h3 class="text-lg font-semibold text-white">John M. Namayan</h3>
+              </article>
+
+              <article class="bg-gray-700 border border-gray-600 rounded-3xl p-6 text-center transition hover:border-green-400 hover:shadow-lg hover:shadow-green-400/20">
+                <div class="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-green-600 to-green-500 text-white text-3xl font-bold">J</div>
+                <h3 class="text-lg font-semibold text-white">Joseph A. Olatunji</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-black border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
+            <div>
+              <a href="./aboutafriplaza.html" class="text-lg font-semibold text-white hover:text-green-400">About AfriPlaza</a>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-white mb-4">Follow Us</h3>
+              <div class="flex items-center gap-4">
+                <a href="https://whatsapp.com/channel/0029VbBnK883gvWYnNmDcV1D" aria-label="WhatsApp" class="text-white text-2xl hover:text-green-400 transition-colors">📱</a>
+                <a href="https://youtube.com/@user-jf7bx6tq5e?si=VdTLgTXZqGLbEo0H" aria-label="YouTube" class="text-white text-2xl hover:text-green-400 transition-colors">▶️</a>
+              </div>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+            <p>&copy; 2026 Tech Titans. All rights reserved.</p>
+            <p class="mt-2">Merging creativity with innovation</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
